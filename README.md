@@ -1,3 +1,3 @@
 cloud computing couse. 
 
-Collection of android projects on the cloud computing course. 
+Collection of android projects from the cloud computing course. 
