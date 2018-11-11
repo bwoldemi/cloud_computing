@@ -1,5 +1,6 @@
 package com.bereket.imagegrid;
 
+import android.app.Dialog;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
     }
 
     private class DownloadFile extends AsyncTask<URL, Integer, Void>{
@@ -27,4 +28,5 @@ public class MainActivity extends AppCompatActivity {
             super.onPostExecute(aLong);
         }
     }
+
 }
