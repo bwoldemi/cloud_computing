@@ -1,4 +1,4 @@
-package com.cumucore.login_pannel;
+package com.aalto17.chattingappUI;
 
 import org.junit.Test;
 

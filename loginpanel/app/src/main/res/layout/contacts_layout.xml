@@ -4,19 +4,19 @@
     android:layout_height="match_parent">
     <ImageView
         android:id="@+id/image_contact"
-        android:src="@mipmap/ic_launcher"
+        android:src="@mipmap/ic_launcher_round"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="5dp"
+        android:layout_marginRight="10dp"
         android:layout_width="wrap_content"
         android:layout_height="match_parent" />
 
         <TextView
             android:id="@+id/contact_name"
-            android:text="Alice"
-            android:textSize="10dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:textSize="18dp"
             android:layout_toRightOf="@id/image_contact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -24,9 +24,8 @@
             android:layout_toRightOf="@id/image_contact"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:textSize="15dp"
             android:id="@+id/contact_message"
-            android:text="Hi how are you? how is it going"
+            android:textSize="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

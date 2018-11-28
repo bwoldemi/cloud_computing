@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cumucore.login_pannel">
+    package="com.aalto17.chattingappUI">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.aalto17.chattingappUI.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignUpActivity" />
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name="com.aalto17.chattingappUI.SignUpActivity" />
+        <activity android:name="com.aalto17.chattingappUI.HomeActivity"></activity>
     </application>
 
 </manifest>

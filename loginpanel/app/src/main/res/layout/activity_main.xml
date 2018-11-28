@@ -34,6 +34,7 @@
         />
 
     <Button
+        android:id="@+id/login_button"
         android:textColor="@color/white"
         android:background="@color/colorPrimary"
         android:layout_gravity="center"
@@ -43,6 +44,7 @@
         android:layout_marginBottom="20dp"/>
 
     <Button
+        android:id="@+id/sinup_button"
         android:textColor="@color/white"
         android:background="@color/colorPrimary"
         android:text="NOT A MEMBER? SIGNUP NOW"

@@ -1,4 +1,4 @@
-package com.cumucore.login_pannel;
+package com.aalto17.chattingappUI;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
