@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.aalto17.chattingappUI.SignUpActivity" />
-        <activity android:name="com.aalto17.chattingappUI.HomeActivity"></activity>
+        <activity android:name="com.aalto17.chattingappUI.HomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 
 </manifest>
