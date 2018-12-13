@@ -42,4 +42,5 @@ public class ContactAdapter extends
     public void onClick(View v) {
 
     }
+
 }
